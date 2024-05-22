@@ -23,7 +23,7 @@ todo_1_id = str(uuid.uuid4())
 todo_2_id = str(uuid.uuid4())
 todo_3_id = str(uuid.uuid4())
 todo_4_id = str(uuid.uuid4())
-print(todo_1_id)
+
 # define internal data structures with example data
 todo_lists = [
     {'id': todo_list_1_id, 'name': 'Einkaufsliste'},
