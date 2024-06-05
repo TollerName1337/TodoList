@@ -62,6 +62,10 @@ COPY beispiel-server.py /app
 ENTRYPOINT [ "python" ]
 CMD ["beispiel-server.py" ]
 ```
+## Docker-Image bauen
+docker build -t todolist . 
+## Docker-Image starten
+docker run -p 5000:5000 -t todolist
 
 
 
